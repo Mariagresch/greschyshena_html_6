@@ -1,0 +1,44 @@
+    body {
+        width: 908px;
+        margin: 0 auto;
+    }
+
+    .contacts {
+        float: left;
+        position: relative;
+        padding-left: 33px;
+        color: #5e696d;
+        font-size: 18px;
+        font-family: Arial;
+    }
+
+    .contacts:before{
+        content: "";
+        position: absolute;
+        background: url(../img/1.png) no-repeat 0 0;
+        width: 33px;
+        height: 21px;
+        top: 0;
+        left: 5px;
+    }
+
+    .authorizing{
+        float: left;
+        width: 495px;
+        height: 25px;
+        background: linear-gradient(to bottom, #1f6685, #1c5e7f, #114266, #0d365a);
+        border-radius: 2px;
+    }
+
+    input{
+        width: 113px;
+        height: 15px;
+        margin: 2px 4px;
+    }
+
+
+     a{
+        font-size: 11px;
+        text-decoration: none;
+        color: red;
+    }
